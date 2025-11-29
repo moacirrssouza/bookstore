@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bookstore.Api\Bookstore.Api.csproj" />
-    <ProjectReference Include="..\Bookstore.Infrastructure\Bookstore.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Bookstore.Api\Bookstore.Api.csproj" />
+    <ProjectReference Include="..\..\src\Bookstore.Infrastructure\Bookstore.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

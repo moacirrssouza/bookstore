@@ -1,11 +1,14 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="Bookstore.Api/Bookstore.Api.csproj" />
-    <Project Path="Bookstore.Appication/Bookstore.Appication.csproj" />
-    <Project Path="Bookstore.Domain/Bookstore.Domain.csproj" />
-    <Project Path="Bookstore.Infrastructure/Bookstore.Infrastructure.csproj" />
+    <Project Path="src/Bookstore.Api/Bookstore.Api.csproj" />
+    <Project Path="src/Bookstore.Appication/Bookstore.Appication.csproj" />
+    <Project Path="src/Bookstore.Domain/Bookstore.Domain.csproj" />
+    <Project Path="src/Bookstore.Infrastructure/Bookstore.Infrastructure.csproj" />
+    <Project Path="src/docker-compose.dcproj">
+      <Build />
+    </Project>
   </Folder>
-  <Project Path="docker-compose.dcproj">
-    <Build />
-  </Project>
+  <Folder Name="/test/">
+    <Project Path="test/Bookstore.UnitTests/Bookstore.UnitTests.csproj" />
+  </Folder>
 </Solution>
